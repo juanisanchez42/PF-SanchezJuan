@@ -85,5 +85,11 @@ body{
     color:rgb(205, 129, 48);
 }
 
-
-
+@media screen and (max-width: 767px){
+    #carouselExampleIndicators img{
+        height: 200px;
+    }
+    #botonera img{
+        width: 150px;
+    }
+}
