@@ -1,0 +1,97 @@
+
+
+
+.bg-crema{
+    background-color: rgb(255, 255, 240);
+}
+
+h1, h2{
+    color: rgb(205, 129, 48);
+}
+
+.tamaño{
+    width: 300px; 
+    height: 300px;
+}
+
+.destacados{
+    width: 100%;
+    height: auto;
+    margin: 20px 100px;
+    
+}
+
+.header{
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+#botonera img{
+    width: 200px;
+}
+
+body{
+    background-color: rgb(255, 255, 240);
+}
+
+#carouselExampleIndicators img{
+    height: 300px;
+}
+
+.nosotras{
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+    padding: 30px 30px;
+}
+
+.background{
+    background-color:  rgb(205, 129, 48);
+}
+
+.crema{
+    color:rgb(255, 255, 240)
+}
+
+.choco{
+    color:rgb(205, 129, 48) ;
+}
+
+#contacto{
+    color: rgb(205, 129, 48);
+}
+
+.scale:hover{
+    cursor: pointer;
+    transition: all 1seg;
+    transform: scale(1.03);
+}
+
+#botonera ul li a{
+    font-size: 1.2rem;
+    transition: background-size .3rem;
+    color:rgb(205, 129, 48);
+}
+
+#botonera ul li a:hover{
+    font-weight: 600;
+    background-size: 100% 2px;
+    color:rgb(205, 129, 48);
+}
+
+.grid{
+    width: 99%;
+    display: grid;
+}
+
+.contacto{
+    grid-template-columns: 30% 35% 35%;
+    column-gap: 0;
+}
+
