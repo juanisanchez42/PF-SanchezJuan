@@ -1,0 +1,82 @@
+body{
+    background-color: $Secondarycolor
+}
+
+#carouselExampleIndicators{
+    img{
+        height: 350px;
+    }
+}
+
+.scale:hover{
+    cursor: pointer;
+    transition: all 1seg;
+    transform: scale(1.03);
+    color: $maincolor;
+} 
+
+p{
+    font-family: $mainfont;
+    color: $maincolor;
+    font-size: $fontSm;
+}
+
+h1,h2{
+    color: $maincolor;
+}
+ 
+#nosotras{
+    background-color: $maincolor;
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+    padding: 30px 30px;
+    color: $Secondarycolor;
+    p{
+        color: $Secondarycolor; 
+        font-family: $secondaryfont;
+    }
+}
+
+#contacto{
+    color: $maincolor
+}
+
+.crema{
+    color:$Secondarycolor
+}
+
+.choco{
+    color:$maincolor
+}
+
+.background{
+    background-color: $maincolor
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tamaño{
+    width: 300px; 
+    height: 300px;
+}
+
+.destacados{
+    width: $w-100;
+    height: auto;
+    margin: 20px 100px;
+    
+}
+
+.header{
+    width: $w-100;
+    height: auto;
+    margin: 50px 0;
+}
+
+.bg-crema{
+    background-color:$Secondarycolor
+}

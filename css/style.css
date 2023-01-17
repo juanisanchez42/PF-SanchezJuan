@@ -1,106 +1,121 @@
-
-
-
-.bg-crema{
-    background-color: rgb(255, 255, 240);
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto&display=swap");
+body {
+  background-color: rgb(255, 255, 240);
 }
 
-h1, h2{
-    color: rgb(205, 129, 48);
+#carouselExampleIndicators img {
+  height: 350px;
 }
 
-.tamaño{
-    width: 300px; 
-    height: 300px;
+.scale:hover {
+  cursor: pointer;
+  transition: all 1seg;
+  transform: scale(1.03);
+  color: rgb(205, 129, 48);
 }
 
-.destacados{
-    width: 100%;
-    height: auto;
-    margin: 20px 100px;
-    
+p {
+  font-family: "Roboto", sans-serif;
+  color: rgb(205, 129, 48);
+  font-size: 1em;
 }
 
-.header{
-    width: 100%;
-    height: auto;
-    margin: 50px 0;
+h1, h2 {
+  color: rgb(205, 129, 48);
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
+#nosotras {
+  background-color: rgb(205, 129, 48);
+  width: 90%;
+  height: auto;
+  margin: 50px auto;
+  padding: 30px 30px;
+  color: rgb(255, 255, 240);
+}
+#nosotras p {
+  color: rgb(255, 255, 240);
+  font-family: "Open Sans", sans-serif;
 }
 
-#botonera img{
-    width: 200px;
+#contacto {
+  color: rgb(205, 129, 48);
 }
 
-body{
-    background-color: rgb(255, 255, 240);
+.crema {
+  color: rgb(255, 255, 240);
 }
 
-#carouselExampleIndicators img{
-    height: 300px;
+.choco {
+  color: rgb(205, 129, 48);
 }
 
-.nosotras{
-    width: 90%;
-    height: auto;
-    margin: 50px auto;
-    padding: 30px 30px;
+.background {
+  background-color: rgb(205, 129, 48);
 }
 
-.background{
-    background-color:  rgb(205, 129, 48);
+.flex {
+  display: flex;
+  justify-content: space-between;
 }
 
-.crema{
-    color:rgb(255, 255, 240)
+.tamaño {
+  width: 300px;
+  height: 300px;
 }
 
-.choco{
-    color:rgb(205, 129, 48) ;
+.destacados {
+  width: 100%;
+  height: auto;
+  margin: 20px 100px;
 }
 
-#contacto{
-    color: rgb(205, 129, 48);
+.header {
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
 }
 
-.scale:hover{
-    cursor: pointer;
-    transition: all 1seg;
-    transform: scale(1.03);
+.bg-crema {
+  background-color: rgb(255, 255, 240);
 }
 
-#botonera ul li a{
-    font-size: 1.2rem;
-    transition: background-size .3rem;
-    color:rgb(205, 129, 48);
+#botonera img {
+  width: 200px;
 }
-
-#botonera ul li a:hover{
-    font-weight: 600;
-    background-size: 100% 2px;
-    color:rgb(205, 129, 48);
+#botonera ul li a {
+  font-size: 1.2rem;
+  transition: background-size 0.3rem;
+  color: rgb(205, 129, 48);
+}
+#botonera ul li a:hover {
+  font-weight: 600;
+  background-size: 100% 2px;
+  color: rgb(205, 129, 48);
 }
 
 /* tablet */
-@media screen and (max-width: 767px){
-    #carouselExampleIndicators img{
-        height: 150px;
-    }
-    #botonera img{
-        width: 150px;
-    }
+@media screen and (max-width: 767px) {
+  #carouselExampleIndicators img {
+    height: 150px;
+  }
+  #botonera img {
+    width: 150px;
+  }
 }
 
 /* mobile */
-@media screen and (max-width: 450px){
-    #carouselExampleIndicators img{
-        height: 100px;
-    }
-    #botonera img{
-        width: 100px;
-    }
+@media screen and (max-width: 450px) {
+  #carouselExampleIndicators img {
+    height: 100px;
+  }
+  #botonera img {
+    width: 100px;
+  }
 }
+#fotos img {
+  object-fit: cover;
+  height: 400px;
+}
+
+/*# sourceMappingURL=style.css.map */

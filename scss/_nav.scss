@@ -1,0 +1,35 @@
+#botonera{
+    img{
+        width: 200px;
+    }
+    ul li a{
+        font-size: 1.2rem;
+        transition: background-size .3rem;
+        color:rgb(205, 129, 48);
+    }
+    ul li a:hover{
+        font-weight: 600;
+        background-size: 100% 2px;
+        color:rgb(205, 129, 48);
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 767px){
+    #carouselExampleIndicators img{
+        height: 150px;
+    }
+    #botonera img{
+        width: 150px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 450px){
+    #carouselExampleIndicators img{
+        height: 100px;
+    }
+    #botonera img{
+        width: 100px;
+    }
+}
