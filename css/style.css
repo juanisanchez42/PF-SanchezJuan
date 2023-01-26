@@ -261,6 +261,9 @@ p {
   textarea {
     width: 200px;
   }
+  h2 {
+    font-size: 30px;
+  }
 }
 #fotos img {
   object-fit: cover;
