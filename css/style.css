@@ -4,10 +4,6 @@ body {
   background-color: rgb(255, 255, 240);
 }
 
-#carouselExampleIndicators img {
-  height: 350px;
-}
-
 .scale:hover {
   cursor: pointer;
   transition: all 1seg;
@@ -36,10 +32,6 @@ h1, h2 {
 #nosotras p {
   color: rgb(255, 255, 240);
   font-family: "Open Sans", sans-serif;
-}
-
-#contacto {
-  color: rgb(205, 129, 48);
 }
 
 .crema {
@@ -94,6 +86,10 @@ h1, h2 {
   color: rgb(205, 129, 48);
 }
 
+#carouselExampleIndicators img {
+  height: 350px;
+}
+
 /* tablet */
 @media screen and (max-width: 767px) {
   #carouselExampleIndicators img {
@@ -103,14 +99,161 @@ h1, h2 {
     width: 150px;
   }
 }
-
 /* mobile */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 460px) {
   #carouselExampleIndicators img {
     height: 100px;
   }
   #botonera img {
     width: 100px;
+  }
+}
+.contact_form {
+  width: 350px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgb(255, 255, 240);
+  padding-left: 30px;
+}
+
+input {
+  background-color: rgb(251, 251, 251);
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(205, 129, 48);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: rgb(251, 251, 251);
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(205, 129, 48);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+#enviar {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: rgb(205, 129, 48);
+  border-color: rgb(205, 129, 48);
+  border-style: solid;
+  border-radius: 10px;
+  width: 300px;
+  cursor: pointer;
+}
+
+button p {
+  color: #fff;
+  padding-top: 10px;
+}
+
+span {
+  color: rgb(205, 129, 48);
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+h2 {
+  font-size: 39px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: rgb(205, 129, 48);
+}
+
+p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+
+#mapas {
+  margin-left: 10px;
+}
+
+#contactanos {
+  justify-content: center;
+  align-items: center;
+}
+
+/* tablet */
+@media screen and (max-width: 767px) {
+  #contactanos {
+    flex-direction: column;
+  }
+  #mapas {
+    width: 350px;
+    justify-content: center;
+  }
+}
+/* mobile */
+@media screen and (max-width: 460px) {
+  #contactanos {
+    flex-direction: column;
+  }
+  #mapas {
+    width: 280px;
+    justify-content: center;
+  }
+  .contact_form {
+    width: 300px;
+  }
+  input {
+    width: 300px;
+  }
+  #enviar {
+    width: 300px;
+  }
+  textarea {
+    width: 300px;
   }
 }
 #fotos img {

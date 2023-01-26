@@ -2,12 +2,6 @@ body{
     background-color: $Secondarycolor
 }
 
-#carouselExampleIndicators{
-    img{
-        height: 350px;
-    }
-}
-
 .scale:hover{
     cursor: pointer;
     transition: all 1seg;
@@ -36,10 +30,6 @@ h1,h2{
         color: $Secondarycolor; 
         font-family: $secondaryfont;
     }
-}
-
-#contacto{
-    color: $maincolor
 }
 
 .crema{

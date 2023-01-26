@@ -14,6 +14,12 @@
     }
 }
 
+#carouselExampleIndicators{
+    img{
+        height: 350px;
+    }
+}
+
 /* tablet */
 @media screen and (max-width: 767px){
     #carouselExampleIndicators img{
@@ -25,7 +31,7 @@
 }
 
 /* mobile */
-@media screen and (max-width: 450px){
+@media screen and (max-width: 460px){
     #carouselExampleIndicators img{
         height: 100px;
     }
