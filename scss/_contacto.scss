@@ -131,10 +131,16 @@ p{
 @media screen and (max-width: 767px){
     #contactanos{
         flex-direction: column;
+        margin: 0;
+        align-items: center;
     }
     #mapas{
         width: 350px;
-        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .contact_form{
+        padding: 0;
     }
 }
 
@@ -144,11 +150,11 @@ p{
         flex-direction: column;
     }
     #mapas{
-        width: 280px;
-        justify-content: center;
+        width: 100%;
     }
     .contact_form{
         width: 300px;
+        padding: 0;
     }
     input{
         width: 300px;
