@@ -1,7 +1,7 @@
 # Entrega-final-SanchezJuan
 https://chocoatodo.netlify.app/ (link a la pagina subida en el servidor netlify)
-https://juanisanchez42.github.io/Entrega-final-SanchezJuan/ (link pages Github)
-https://github.com/juanisanchez42/Entrega-final-SanchezJuan.git (link repositorio)
+https://juanisanchez42.github.io/PF-SanchezJuan/ (link pages Github)
+https://github.com/juanisanchez42/PF-SanchezJuan.git (link repositorio)
 
 Hola profe buen dia, te adjunto arriba los 3 links pedidos para la entrega final.
 Mi sitio web es de un emprendimiento de dos amigas que hacen pasteleria y se me ocurrio hacerles la pagina, si les gusta se las seguire editando mas adelante.
