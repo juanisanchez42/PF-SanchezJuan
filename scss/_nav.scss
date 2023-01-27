@@ -20,6 +20,16 @@
     }
 }
 
+/* desk chico */
+@media screen and (max-width: 1300px){
+    #carouselExampleIndicators img{
+        height: 250px;
+    }
+    #botonera img{
+        width: 150px;
+    }
+}
+
 /* tablet */
 @media screen and (max-width: 767px){
     #carouselExampleIndicators img{
