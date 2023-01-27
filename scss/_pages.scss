@@ -70,3 +70,52 @@ h1,h2{
 .bg-crema{
     background-color:$Secondarycolor
 }
+
+#error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   h1{
+    text-align: center;
+    font-size: 350px;
+    margin-bottom: 0;
+   }
+   h2{
+   margin-top: 0;
+   }
+    a{
+        font-size: 25px;
+        color: $maincolor;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 767px){
+  #error{
+    h1{
+        font-size: 200px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    a{
+        font-size: 20px;
+    }
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 460px){
+    #error{
+        h1{
+            font-size: 100px;
+        }
+        h2{
+            font-size: 15px;
+        }
+        a{
+            font-size: 10px;
+        }
+      }
+}

@@ -72,6 +72,49 @@ h1, h2 {
   background-color: rgb(255, 255, 240);
 }
 
+#error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#error h1 {
+  text-align: center;
+  font-size: 350px;
+  margin-bottom: 0;
+}
+#error h2 {
+  margin-top: 0;
+}
+#error a {
+  font-size: 25px;
+  color: rgb(205, 129, 48);
+}
+
+/* tablet */
+@media screen and (max-width: 767px) {
+  #error h1 {
+    font-size: 200px;
+  }
+  #error h2 {
+    font-size: 30px;
+  }
+  #error a {
+    font-size: 20px;
+  }
+}
+/* mobile */
+@media screen and (max-width: 460px) {
+  #error h1 {
+    font-size: 100px;
+  }
+  #error h2 {
+    font-size: 15px;
+  }
+  #error a {
+    font-size: 10px;
+  }
+}
 #botonera img {
   width: 200px;
 }
